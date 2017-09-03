@@ -10,28 +10,32 @@ class App extends Component {
 
           <div className="masthead clearfix">
             <div className="inner">
-              <h3 className="masthead-brand">Cover</h3>
+              <h4 className="masthead-brand">@bobzurad</h4>
               <nav>
                 <ul className="nav masthead-nav">
-                  <li className="active"><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="https://github.com/bobzurad">GitHub</a></li>
+                  <li><a href="https://twitter.com/bobzurad">Twitter</a></li>
+                  <li><a href="https://instagram.com/bobzurad">Instagram</a></li>
+                  <li><a href="./zurad_bob_resume.pdf">Resume</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div className="inner cover">
-            <h1 className="cover-heading">Cover your page.</h1>
-            <p className="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <h1 className="cover-heading">Hi. I'm Bob.</h1>
+            <img src="./img/bobavatar.jpg" alt="Bob Zurad" />
             <p className="lead">
-              <a href="#" className="btn btn-lg btn-default">Learn more</a>
+              When I'm not spending time with my wife and daughter, I like to <a href="https://github.com/bobzurad">write code</a> and <a href="http://steamcommunity.com/id/spurioustuple/">play video games.</a> I'm currently accepting work with any remote-first employer. If you like what you see on my resume or GitHub, please drop me a line.
+            </p>
+            <p className="lead">
+              Peace
             </p>
           </div>
 
           <div className="mastfoot">
             <div className="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              <p>Never Stop Learning</p>
             </div>
           </div>
 
