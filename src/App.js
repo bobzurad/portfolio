@@ -24,7 +24,6 @@ class App extends Component {
 
           <div className="inner cover">
             <h1 className="cover-heading">Hi. I'm Bob.</h1>
-            <img src="./img/bobavatar.jpg" alt="Bob Zurad" />
             <p className="lead">
               When I'm not spending time with my wife and daughter, I like to <a href="https://github.com/bobzurad">write code</a> and <a href="http://steamcommunity.com/id/spurioustuple/">play video games.</a> I'm currently accepting work with any remote-first employer. If you like what you see on my resume or GitHub, please drop me a line.
             </p>
