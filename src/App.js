@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
+//import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
 import './App.css';
+import resume from './zurad_bob_resume.pdf';
 
 class App extends Component {
   render() {
@@ -16,7 +17,7 @@ class App extends Component {
                   <li><a href="https://github.com/bobzurad">GitHub</a></li>
                   <li><a href="https://twitter.com/bobzurad">Twitter</a></li>
                   <li><a href="https://instagram.com/bobzurad">Instagram</a></li>
-                  <li><a href="./zurad_bob_resume.pdf">Resume</a></li>
+                  <li><a href={resume}>Resume</a></li>
                 </ul>
               </nav>
             </div>
@@ -25,7 +26,7 @@ class App extends Component {
           <div className="inner cover">
             <h1 className="cover-heading">Hi. I'm Bob.</h1>
             <p className="lead">
-              When I'm not spending time with my wife and daughter, I like to <a href="https://github.com/bobzurad">write code</a> and <a href="http://steamcommunity.com/id/spurioustuple/">play video games.</a> I'm currently accepting work with any remote-first employer. If you like what you see on my resume or GitHub, please drop me a line.
+              When I'm not spending time with my wife and daughter, I like to <a href="https://github.com/bobzurad">write code</a> and <a href="http://steamcommunity.com/id/spurioustuple/">play video games.</a> I'm currently accepting work with remote-first employers. If you like what you see on my resume or GitHub, please drop me a line.
             </p>
             <p className="lead">
               Peace
