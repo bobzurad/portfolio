@@ -7,7 +7,15 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgba(255,255,255,.75);
+}
+
+p.lead a {
+  text-decoration: underline;
+}
+
+p.lead a:hover {
+  text-decoration: none;
 }
 
 /* Custom default button */
