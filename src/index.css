@@ -7,15 +7,7 @@
 a,
 a:focus,
 a:hover {
-  color: rgba(255,255,255,.75);
-}
-
-p.lead a {
-  text-decoration: underline;
-}
-
-p.lead a:hover {
-  text-decoration: none;
+  color: #78966b;
 }
 
 /* Custom default button */
@@ -88,7 +80,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #78966b;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,

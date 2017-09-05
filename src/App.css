@@ -1,0 +1,14 @@
+h2.appsHeader {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+div.appInfo {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 399px) {
+    li.hiddenBelow400 {
+        display: none;
+    }
+}
