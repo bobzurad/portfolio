@@ -7,7 +7,7 @@
 a,
 a:focus,
 a:hover {
-  color: #78966b;
+  color: #abd698;
 }
 
 /* Custom default button */
@@ -80,7 +80,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: #78966b;
+  color: #abd698;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
