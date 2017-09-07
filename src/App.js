@@ -24,6 +24,9 @@ class App extends Component {
           </div>
 
           <div className="inner cover">
+            <div className="myPhoto">
+              <img src="https://www.gravatar.com/avatar/d1fe45f892dc81c63e882d8fe4d63f57?s=300" alt="Bob Zurad"/>
+            </div>
             <h1 className="cover-heading">Hi. I'm Bob.</h1>
             <p className="lead">
               When I'm not spending time with my wife and daughter, I like to <a href="https://github.com/bobzurad">write code</a> and <a href="http://steamcommunity.com/id/spurioustuple/">play video games.</a> I'm currently accepting opportunities with <a href="https://stackoverflow.blog/2017/02/08/means-remote-first-company/">remote-first</a> employers. If you like what you see on my resume or GitHub, please drop me a line. Peace.
@@ -61,12 +64,9 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="mastfoot">
-            <div className="inner">
-              <p>Never Stop Learning</p>
-            </div>
+          <div className="footer">
+            <p>Never Stop Learning</p>
           </div>
-
         </div>
       </div>
     );

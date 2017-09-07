@@ -7,8 +7,23 @@ div.appInfo {
     margin-bottom: 40px;
 }
 
+div.myPhoto img {
+    border-radius: 6px;
+}
+
+div.footer {
+    color: rgba(255, 255, 255, .5);
+}
+
 @media (max-width: 399px) {
     li.hiddenBelow400 {
         display: none;
+    }
+}
+
+@media (min-width: 768px) { 
+    div.myPhoto {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
