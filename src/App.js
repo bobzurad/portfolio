@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Well } from 'react-bootstrap';
+import emailIcon from './assets/envelope-regular.png';
+import githubIcon from './assets/github-brands-solid.png';
+import documentIcon from './assets/file-regular.png';
 import './App.css';
 
 class App extends Component {
@@ -9,16 +12,19 @@ class App extends Component {
         <div className="cover-container">
 
           <div className="masthead clearfix">
-            <div className="inner row">
-              <div className="col-xs-5">
-                <h4 className="masthead-banner"><a href="https://www.zurad.net">Bob Zurad</a></h4>
-              </div>
-              <div className="col-xs-2 col-xs-offset-3 header-link">
-                <h4><a href="https://github.com/bobzurad"><strong>GitHub</strong></a></h4>
-              </div>
-              <div className="col-xs-2 header-link">
-                <h4><a href="./assets/Resume-BobZurad-2026.pdf"><strong>Resume</strong></a></h4>
-              </div>
+            <div className="inner banner-row">
+              <span>
+                <img src={emailIcon} className="icon" alt="Email Icon"/>
+                <a href="mailto:bob.zurad@gmail.com"><strong>Bob Zurad</strong></a>
+              </span>
+              <span className="header-link">
+                <img src={githubIcon} className="icon" alt="GitHub Icon"/>
+                <a href="https://github.com/bobzurad"><strong>GitHub</strong></a>
+              </span>
+              <span className="header-link">
+                <img src={documentIcon} className="icon" alt="Document Icon"/>
+                <a href="./assets/Resume-BobZurad-2026.pdf" target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
+              </span>
             </div>
           </div>
 
@@ -41,9 +47,12 @@ class App extends Component {
             <div className="row">
               <div className="col-md-6 appInfo">
                 <Well bsSize="large">
-                  <h3><a href="https://www.notefireapp.com">NoteFire</a></h3>
+                  <h3><strong>NoteFire</strong></h3>
                   <p>
                     A lightweight notes app that stores data in the cloud. 
+                  </p>
+                  <p>
+                    <a href="https://www.notefireapp.com">www.notefireapp.com</a>
                   </p>
                   <p>
                     <a href="https://github.com/bobzurad/NoteFire">Source Code</a>
@@ -52,12 +61,15 @@ class App extends Component {
               </div>
               <div className="col-md-6 appInfo">
                 <Well bsSize="large">
-                  <h3><a href="https://zurdle.vercel.app">Zurdle</a></h3>
+                  <h3><strong>Zurdle</strong></h3>
                   <p>
                     A Wordle clone that I made for my daughter.&nbsp;&nbsp;
                     <small class="text-muted">
                       (NYT, please don't sue me)
                     </small>
+                  </p>
+                  <p>
+                    <a href="https://zurdle.vercel.app">zurdle.vercel.app</a>
                   </p>
                   <p>
                     <a href="https://github.com/bobzurad/zurdle">Source Code</a>
@@ -66,11 +78,13 @@ class App extends Component {
               </div>
               <div className="col-md-6 appInfo">
                 <Well bsSize="large">
-                  <h3><a href="https://play.google.com/store/apps/details?id=net.zurad.bob.whitenoisenightlight">Night Light</a></h3>
+                  <h3><strong>Night Light</strong></h3>
                   <p>
                     An Android app that allows the device to be used as a night light and provide white noise.
                   </p>
-                  <p>&nbsp;</p>
+                  <p>
+                    <a href="https://play.google.com/store/apps/details?id=net.zurad.bob.whitenoisenightlight">Google Play Store</a>
+                  </p>
                   <p>
                     <a href="https://github.com/bobzurad/WhiteNoiseNightLight">Source Code</a>
                   </p>
@@ -78,7 +92,7 @@ class App extends Component {
               </div>
               <div className="col-md-6 appInfo">
                 <Well bsSize="large">
-                  <h3>ABV Calculator</h3>
+                  <h3><strong>ABV Calculator</strong></h3>
                   <p>
                     A Windows 8 Metro app that calculates the ABV of homebrew, given the Original Gravity and Final Gravity.
                   </p>
