@@ -3,6 +3,7 @@ import { Well } from 'react-bootstrap';
 import emailIcon from './assets/envelope-regular.png';
 import githubIcon from './assets/github-brands-solid.png';
 import documentIcon from './assets/file-regular.png';
+import resume from './assets/Resume-BobZurad-2026.pdf';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +24,7 @@ class App extends Component {
               </span>
               <span className="header-link">
                 <img src={documentIcon} className="icon" alt="Document Icon"/>
-                <a href="./assets/Resume-BobZurad-2026.pdf" target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
+                <a href={resume} target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
               </span>
             </div>
           </div>
