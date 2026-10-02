@@ -1,10 +1,21 @@
 h2.appsHeader {
     margin-top: 60px;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+div.header-link {
+    text-align: end;
 }
 
 div.appInfo {
     margin-bottom: 40px;
+}
+
+div.myPhoto {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
 }
 
 div.myPhoto img {
@@ -13,17 +24,18 @@ div.myPhoto img {
 
 div.footer {
     color: rgba(255, 255, 255, .5);
+    text-align: center;
 }
 
-@media (max-width: 399px) {
-    li.hiddenBelow400 {
-        display: none;
-    }
+.lead {
+    margin-bottom: 3rem;
 }
 
-@media (min-width: 768px) { 
-    div.myPhoto {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+.cover-heading {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.well {
+    background-color: inherit;
 }
