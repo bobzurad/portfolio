@@ -64,7 +64,7 @@ class App extends Component {
                 <Well bsSize="large">
                   <h3><strong>Zurdle</strong></h3>
                   <p>
-                    A Wordle clone that I made for my daughter.&nbsp;&nbsp;
+                    A two-player Wordle variant that I made for my daughter.&nbsp;&nbsp;
                     <small class="text-muted">
                       (NYT, please don't sue me)
                     </small>
@@ -81,7 +81,7 @@ class App extends Component {
                 <Well bsSize="large">
                   <h3><strong>Night Light</strong></h3>
                   <p>
-                    An Android app that allows the device to be used as a night light and provide white noise.
+                    An Android app that allows the device to be used as a night light and a white noise machine.
                   </p>
                   <p>
                     <a href="https://play.google.com/store/apps/details?id=net.zurad.bob.whitenoisenightlight">Google Play Store</a>
